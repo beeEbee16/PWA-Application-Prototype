@@ -1,0 +1,182 @@
+[
+    {
+        "QuestionNum": "1",
+        "Question": "What is the castle that Harry attends?",
+        "A": "Beauxbaton",
+        "B": "Hogwarts",
+        "C": "Durmstrang",
+        "D": "Ilvermorny",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "2",
+        "Question": "Who was headmaster at Hogwarts before Dumbledore?",
+        "A": "Dexter Fortescue",
+        "B": "Dilys Derwent",
+        "C": "Phineas Nigellus Black",
+        "D": "Armando Dippet",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "3",
+        "Question": "In the later books, Buckbeak gets a secret name in order to protect his identity. What was this nickname?",
+        "A": "Witherwings",
+        "B": "Griphook",
+        "C": "Hokey",
+        "D": "Billywig",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "4",
+        "Question": "Who was Aragog's wife?",
+        "A": "Ungoliant",
+        "B": "Kelpie",
+        "C": "Mosag",
+        "D": "Matagot",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "5",
+        "Question": "Who was the Ministry of Magic employee who investigates Morfin's crimes?",
+        "A": "Bob Ogden",
+        "B": "Yaxley",
+        "C": "Kingsley Shacklebolt",
+        "D": "Ludovic Bagman",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "6",
+        "Question": "What was Rita Skeeter's animagus form?",
+        "A": "Cat",
+        "B": "Beetle",
+        "C": "Mouse",
+        "D": "Bird",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "7",
+        "Question": "Who was the leader of the Centaur's?",
+        "A": "Magorian",
+        "B": "Firenze",
+        "C": "Bane",
+        "D": "Ronan",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "8",
+        "Question": "Which of Voldemort's Death Eaters was an unspeakable?",
+        "A": "Antonin Dolohov",
+        "B": "Thorfinn Rowle",
+        "C": "Scabior",
+        "D": "Augustus Rookwood",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "9",
+        "Question": "What is the magic number that appears all throughout the Harry Potter story?",
+        "A": "5",
+        "B": "8",
+        "C": "7",
+        "D": "3",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "10",
+        "Question": "How many staircases are in Hogwarts?",
+        "A": "142",
+        "B": "100",
+        "C": "150",
+        "D": "200",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "11",
+        "Question": "What vault number do Hagrid and Harry stop at first in the Philosopher's Stone?",
+        "A": "687",
+        "B": "713",
+        "C": "394",
+        "D": "777",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "12",
+        "Question": "Who planted the Whomping Willow?",
+        "A": "Lupin",
+        "B": "Dumbledore",
+        "C": "Dippet",
+        "D": "Merlin",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "13",
+        "Question": "What is Dumbledore's full name?",
+        "A": "Albus Wulfric Brian Percival Dumbledore",
+        "B": "Albus Percival Brian Wulfric Dumbledore",
+        "C": "Albus Brian Wulfric Percival Dumbledore",
+        "D": "Albus Percival Wulfric Brian Dumbledore",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "14",
+        "Question": "What are the small pale-green skinned creatures that reside in the black Lake alongside the Merpeople and the Giant squid?",
+        "A": "Flobberworm",
+        "B": "Kelpie",
+        "C": "Grindylow",
+        "D": "Marmite",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "15",
+        "Question": "Who was Ollivander's competition in making and selling wands?",
+        "A": "Mykew Gregorovitch",
+        "B": "Gellert Grindelwald",
+        "C": "Rolanda Hooch",
+        "D": "Aurora Sinistra",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "16",
+        "Question": "Who killed Helena Ravenclaw?",
+        "A": "Fat Friar",
+        "B": "Bloody Baron",
+        "C": "Cuthbert Binns",
+        "D": "Sir Nicholas de Mimsey Porpington",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "17",
+        "Question": "How many years had passed between the first opening of the Chamber of Secrets and the second?",
+        "A": "50",
+        "B": "100",
+        "C": "150",
+        "D": "200",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "18",
+        "Question": "What page does Snape have the students turn to when he teaches a class of Defence Against the Dark Arts in Prisoner of Azkaban?",
+        "A": "200",
+        "B": "687",
+        "C": "567",
+        "D": "394",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "19",
+        "Question": "How many Sickles equals one Galleon?",
+        "A": "29",
+        "B": "15",
+        "C": "17",
+        "D": "10",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "20",
+        "Question": "Who gave the original prophecy involving Harry and Voldemort?",
+        "A": "Sybill Trelawney",
+        "B": "Albus Dumbledore",
+        "C": "Serious Black",
+        "D": "Minerva McGonagall",
+        "Answer": "A"
+    }
+]

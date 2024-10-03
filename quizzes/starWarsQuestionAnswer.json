@@ -1,0 +1,182 @@
+[
+    {
+        "QuestionNum": "1",
+        "Question": "What are the force sensitive beings in the Star Wars universe called?",
+        "A": "Mandalorion",
+        "B": "Jedi",
+        "C": "Wookie",
+        "D": "Jawa",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "2",
+        "Question": "Which of these is a race in Star Wars?",
+        "A": "Yuzzum",
+        "B": "Salt Vampire",
+        "C": "Gorn",
+        "D": "Talosian",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "3",
+        "Question": "What race is Yoda?",
+        "A": "Ithorian",
+        "B": "Trandoshan",
+        "C": "Neimoidian",
+        "D": "Unknown",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "4",
+        "Question": "What type of ship do the Rebels use during their attempt to destroy the first Death Star?",
+        "A": "U-wing",
+        "B": "Y-wing",
+        "C": "X-wing",
+        "D": "B-wing",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "5",
+        "Question": "What order is given by Emperor Palpatine in Revenge of the Sith?",
+        "A": "66",
+        "B": "52",
+        "C": "99",
+        "D": "45",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "6",
+        "Question": "What planet does Luke find Yoda on?",
+        "A": "Tatooine",
+        "B": "Yavin 4",
+        "C": "Kashyyk",
+        "D": "Dagobah",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "7",
+        "Question": "Who is the Weequay pirate that is shown prominently in the Clone Wars?",
+        "A": "Cad Bane",
+        "B": "Asajj Ventress",
+        "C": "Shaak Ti",
+        "D": "Hondo Ohnaka",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "8",
+        "Question": "Luke had a secret sister that wasn't known until Return of the Jedi. Who was she?",
+        "A": "Padmé",
+        "B": "Bo-Katan",
+        "C": "Leia",
+        "D": "Ahsoka",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "9",
+        "Question": "Which planet was destroyed by the Death Star?",
+        "A": "Alderaan",
+        "B": "Hoth",
+        "C": "Bespin",
+        "D": "Mustafar",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "10",
+        "Question": "Who is Lando's co-pilot in Return of the Jedi?",
+        "A": "Greedo",
+        "B": "Nien Nunb",
+        "C": "Hera Syndulla",
+        "D": "Maz kanata",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "11",
+        "Question": "What is the name of Jango's, and later, Boba's ship?",
+        "A": "Executor",
+        "B": "Home One",
+        "C": "Slave 1",
+        "D": "Invisible Hand",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "12",
+        "Question": "What species are the guards in Jabba's Palace?",
+        "A": "Bothan",
+        "B": "Duros",
+        "C": "Er'Kit",
+        "D": "Gamorrean",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "13",
+        "Question": "What color is Yoda?",
+        "A": "Green",
+        "B": "Blue",
+        "C": "Red",
+        "D": "Pink",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "14",
+        "Question": "Han Solo famously likes to state that the Millenium Falcon made the Kessel run in less than how many parsecs?",
+        "A": "12",
+        "B": "10",
+        "C": "5",
+        "D": "7",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "15",
+        "Question": "Which hand does Luke lose when fighting Darth Vader?",
+        "A": "Neither",
+        "B": "Left",
+        "C": "Both",
+        "D": "Right",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "16",
+        "Question": "What planet is Rey living on at the beginning of The Force Awakens?",
+        "A": "Tatooine",
+        "B": "Hoth",
+        "C": "Jakku",
+        "D": "Ryloth",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "17",
+        "Question": "What two legged creatures are ridden by Rebels in Empire Strikes Back?",
+        "A": "Tauntaun",
+        "B": "Bantha",
+        "C": "Rancor",
+        "D": "Dewback",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "18",
+        "Question": "Who is the Ewok that befriends Leia on Endor?",
+        "A": "Nippet",
+        "B": "Teebo",
+        "C": "Wicket",
+        "D": "Logray",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "19",
+        "Question": "Who is the sarcastic droid that features in Rogue One?",
+        "A": "BB-8",
+        "B": "K-2SO",
+        "C": "AP-5",
+        "D": "4-LOM",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "20",
+        "Question": "Which character is often seen by Jabba's side?",
+        "A": "Pondo Babba",
+        "B": "Salacious B Crumb",
+        "C": "Dr. Cornelious Evazan",
+        "D": "Hem Dazon",
+        "Answer": "B"
+    }
+]

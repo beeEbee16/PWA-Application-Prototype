@@ -1,0 +1,182 @@
+[
+    {
+        "QuestionNum": "1",
+        "Question": "Who was king of the Seven Kingdoms at the beginning of the main story?",
+        "A": "Viserys Targaryen",
+        "B": "Loras Tyrell",
+        "C": "Daenerys Targaryen",
+        "D": "Robert Baratheon",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "2",
+        "Question": "Eddard belongs to what house?",
+        "A": "Stark",
+        "B": "Baratheon",
+        "C": "Martell",
+        "D": "Greyjoy",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "3",
+        "Question": "What is the house motto of house Lannister?",
+        "A": "Growing Strong",
+        "B": "Our Blades are Sharp",
+        "C": "Hear Me Roar",
+        "D": "A lannister always pays his debts",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "4",
+        "Question": "There are nineteen fortified castles along the wall, but only three are manned. What are these three castles?",
+        "A": "Westwatch-by-the-sea, The Shadow Tower, Icemark",
+        "B": "The Shadow Tower, Castle Black, Eastwatch-by-the-sea",
+        "C": "Sable Hall, The Torches, Sentinel Stand",
+        "D": "Stonedoor, Hoarfrost Hill, Deep Lake",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "5",
+        "Question": "Which character has the nickname 'The Spider'?",
+        "A": "Varys",
+        "B": "Petyr",
+        "C": "Grey Worm",
+        "D": "Missandei",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "6",
+        "Question": "Who is the author of A Song of Ice and Fire?",
+        "A": "J.R.R Tolkien",
+        "B": "C.S. Lewis",
+        "C": "George R.R. Martin",
+        "D": "Frank Herbert",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "7",
+        "Question": "Which of the Children of the Forest can speak the common tongue?",
+        "A": "Ash",
+        "B": "Scales",
+        "C": "Coals",
+        "D": "Leaf",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "8",
+        "Question": "What are the creatures that compose the main bulk of the army of the dead?",
+        "A": "Wight",
+        "B": "White Walker",
+        "C": "Children of the Forest",
+        "D": "First Men",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "9",
+        "Question": "Who was the king of the giants?",
+        "A": "Dongo",
+        "B": "Wun Weg Wun Dar Wun",
+        "C": "Mag Mar Tun Doh Weg",
+        "D": "Tormund",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "10",
+        "Question": "Which dragon is the largest in the universe created by George R.R. Martin?",
+        "A": "Drogon",
+        "B": "Balerion",
+        "C": "Vhagar",
+        "D": "Vermithor",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "11",
+        "Question": "Who was the leader of the Golden Company when Cersei hired them?",
+        "A": "Wes Borland",
+        "B": "Robert Westland",
+        "C": "Larys Strong",
+        "D": "Harry Strickland",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "12",
+        "Question": "How many kings did Varys serve?",
+        "A": "4",
+        "B": "5",
+        "C": "3",
+        "D": "6",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "13",
+        "Question": "Who was the fortune teller Cersei visited?",
+        "A": "Jenny the Newt",
+        "B": "Mirri Maz Duur",
+        "C": "Melisandre",
+        "D": "Maggie the Frog",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "14",
+        "Question": "What is the name of Euron's ship?",
+        "A": "Snow",
+        "B": "Silence",
+        "C": "Bloodmoon",
+        "D": "Balerion",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "15",
+        "Question": "How many masters does Daenerys crucify after she took Meereen?",
+        "A": "211",
+        "B": "150",
+        "C": "163",
+        "D": "100",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "16",
+        "Question": "What is the tallest structure in the Sevon Kingdoms?",
+        "A": "Oldtown's High Tower",
+        "B": "The Wall",
+        "C": "The Eyrie",
+        "D": "Great Pyramid of Meereen",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "17",
+        "Question": "Which Great House lived by the words, 'Family, Duty, Honor'?",
+        "A": "Martell",
+        "B": "Tully",
+        "C": "Tyrell",
+        "D": "Frey",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "18",
+        "Question": "Who says the famous quote, 'I drink and I know things'?",
+        "A": "Jaime Lannister",
+        "B": "Arya Stark",
+        "C": "Oberyn Martell",
+        "D": "Tyrion Lannister",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "19",
+        "Question": "What is Petyr Baelish's sigil?",
+        "A": "Rose",
+        "B": "Cross",
+        "C": "Mockingbird",
+        "D": "Five Fingered Hand",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "20",
+        "Question": "In the show, who is the one that chopped jaime's hand off?",
+        "A": "Locke",
+        "B": "Selwyn",
+        "C": "Vargo Hoat",
+        "D": "Urswyck",
+        "Answer": "A"
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "QuestionNum": "1",
+        "Question": "Who is the actor who plays MacGyver?",
+        "A": "Bruce McGill",
+        "B": "Dana Elcar",
+        "C": "Richard Dean Anderson",
+        "D": "Michael Des Barres",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "2",
+        "Question": "What is MacGyver's grandfathers's name?",
+        "A": "Harry Jackson",
+        "B": "Guy Roberts",
+        "C": "Jesse Colton",
+        "D": "Peter Thornton",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "3",
+        "Question": "Who is the voodoo priestess in MacGyver?",
+        "A": "Nikki Carpenter",
+        "B": "Lisa Woodman",
+        "C": "Penny Parker",
+        "D": "Mama Lorain",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "4",
+        "Question": "Who are the three Colton brothers?",
+        "A": "Frank, Jesse, Perry",
+        "B": "Billy, Frank, Jesse",
+        "C": "Tim, Billy, Irwin",
+        "D": "Jesse, Perry, Tim",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "5",
+        "Question": "What is the name of the Colton family dog?",
+        "A": "Frog",
+        "B": "Dog",
+        "C": "Buddy",
+        "D": "Abe",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "6",
+        "Question": "Who was MacGyver's friend who died while trying to defuse a bomb at sea?",
+        "A": "Robert Sanborn",
+        "B": "Larry Whitecloud",
+        "C": "Charlie Robinson",
+        "D": "Darin Cooper",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "7",
+        "Question": "What is the name of MacGyver's son?",
+        "A": "Tim Wexler",
+        "B": "Caspar Kasabian",
+        "C": "Henry Jones",
+        "D": "Sean Malloy",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "8",
+        "Question": "How many seasons did MacGyver have?",
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "9",
+        "Question": "How can you tell when Jack Dalton is 'stretching the truth'?",
+        "A": "He laughs",
+        "B": "He doesn't make eye contact",
+        "C": "His eye twitches",
+        "D": "He wrings his hands",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "10",
+        "Question": "MacGyver works for two companies throughout the series. What is the second company?",
+        "A": "Spy Center Inc.",
+        "B": "Department of External Services",
+        "C": "Central Intelligence Agency",
+        "D": "Phoenix Foundation",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "11",
+        "Question": "Based on the previous question, which company did he first work at?",
+        "A": "Department of External Services",
+        "B": "Central Intelligence Agency",
+        "C": "Phoenix Foundation",
+        "D": "Spy Center Inc.",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "12",
+        "Question": "Where does MacGyver meet Penny Parker?",
+        "A": "Restaurant",
+        "B": "Airport",
+        "C": "Bank",
+        "D": "Grocery Store",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "13",
+        "Question": "Who is MacGyver's greatest foe?",
+        "A": "Matlock",
+        "B": "Brandenberg",
+        "C": "Malcolm",
+        "D": "Murdoc",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "14",
+        "Question": "What is MacGyver's favorite sport?",
+        "A": "Soccer",
+        "B": "Football",
+        "C": "Hockey",
+        "D": "Baseball",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "15",
+        "Question": "Why didn't MacGyver like guns?",
+        "A": "They are too loud",
+        "B": "He never grew up around them",
+        "C": "Childhood incident",
+        "D": "He actually loved them",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "16",
+        "Question": "In the episode 'Two Times Trouble,' Carla impersonates her twin sister. Who is this?",
+        "A": "Roxanne",
+        "B": "Judy",
+        "C": "Michelle",
+        "D": "Charity",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "17",
+        "Question": "Who runs the Challenger's club alongside his wife, Cynthia?",
+        "A": "Larry",
+        "B": "Booker",
+        "C": "Andrew",
+        "D": "Robert",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "18",
+        "Question": "What is the name of the restaurant that MacGyver helps Earl Dent get a job at?",
+        "A": "Los Polos Hermanos",
+        "B": "Mr. Cluck's Chicken Shack",
+        "C": "Cluckin' Bell",
+        "D": "Chicken Habit",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "19",
+        "Question": "Who tried teaching MacGyver a 'lesson in evil'?",
+        "A": "Murdoc",
+        "B": "Deborah",
+        "C": "Zito",
+        "D": "Nicolai Kossov",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "20",
+        "Question": "What is MacGyver's first name?",
+        "A": "Angus",
+        "B": "Harry",
+        "C": "Dexter",
+        "D": "Craig",
+        "Answer": "A"
+    }
+]

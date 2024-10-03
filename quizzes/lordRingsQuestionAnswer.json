@@ -1,0 +1,182 @@
+[
+    {
+        "QuestionNum": "1",
+        "Question": "What is the name of the Hobbit that carries the ring most of the way in The Lord of the Rings?",
+        "A": "Merry",
+        "B": "Frodo",
+        "C": "Sam",
+        "D": "Pippin",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "2",
+        "Question": "Which wizard accompanied the Fellowship on their travels in the Fellowship of the Ring?",
+        "A": "Saruman",
+        "B": "Gandalf",
+        "C": "Radagast",
+        "D": "Tom Bombadil",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "3",
+        "Question": "What is the name of Sauron's tower?",
+        "A": "Minas Tirith",
+        "B": "Minas Anor",
+        "C": "Orthanc",
+        "D": "Barad-dûr",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "4",
+        "Question": "How many members are in the Fellowship?",
+        "A": "8",
+        "B": "9",
+        "C": "6",
+        "D": "7",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "5",
+        "Question": "What is the name of the Ent that accompanies Merry and Pippin?",
+        "A": "Treebeard",
+        "B": "Beechbone",
+        "C": "Fimbrethil",
+        "D": "Finglas",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "6",
+        "Question": "Who was the last high king of the Noldor that served in Lindon?",
+        "A": "Finrod Felagund",
+        "B": "Gil-Galad",
+        "C": "Fingolfin",
+        "D": "Fëanor",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "7",
+        "Question": "What land did Sauron take for himself and rule from during the Third Age of Middle-Earth?",
+        "A": "The Shire",
+        "B": "Mordor",
+        "C": "Gondor",
+        "D": "Rhûn",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "8",
+        "Question": "Who is Shelob's mother?",
+        "A": "Ungoliant",
+        "B": "Aragog",
+        "C": "Morgoth",
+        "D": "Éowyn",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "9",
+        "Question": "What is the name of the older, white and male, tree that gave light to Arda in the Year of the Tree in Tolkien's legendarium?",
+        "A": "Laurelin",
+        "B": "Telperion",
+        "C": "Treebeard",
+        "D": "Yavanna",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "10",
+        "Question": "What is the name of the younger, gold and female, tree that gave light to arda in the Year of the Tree in Tolkien's legendarium?",
+        "A": "Laurelin",
+        "B": "Telperion",
+        "C": "Ulmo",
+        "D": "Mandos",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "11",
+        "Question": "Morgoth was the original evil in Tolkien's legendarium. This was a name given to him by Fëanor to mean, 'Black Foe of the World.' What was his original name?",
+        "A": "Finwë",
+        "B": "Maedhros",
+        "C": "Melkor",
+        "D": "Tulkas",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "12",
+        "Question": "Who was the second member of the Fellowship to die during the quest to destroy the One Ring?",
+        "A": "Gandalf",
+        "B": "Boromir",
+        "C": "Gimli",
+        "D": "Aragorn",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "13",
+        "Question": "Mount Doom is the extremely popular volcano where the One Ring was created, and later destroyed. What is the Sindarin translation?",
+        "A": "Melon",
+        "B": "Orodruin",
+        "C": "Ephel Dúath",
+        "D": "Emyn Muil",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "14",
+        "Question": "There is a set of twin statues that the Fellowship sail by on their quest. What is the name of these statues?",
+        "A": "Argonath",
+        "B": "Enedwaith",
+        "C": "Minas Ithil",
+        "D": "Oromë",
+        "Answer": "A"
+    },
+    {
+        "QuestionNum": "15",
+        "Question": "Frodo and Sam, after leaving the rest of the Fellowship, encounter a creature. What is the name of this creature?",
+        "A": "Bilbo",
+        "B": "Fatty Bolger",
+        "C": "Gollum",
+        "D": "Déagol",
+        "Answer": "C"
+    },
+    {
+        "QuestionNum": "16",
+        "Question": "Sauron created many rings beyond his One Ring. among all of them, he created 9 for men. What did these men come to be known?",
+        "A": "Haradrim",
+        "B": "Easterlings",
+        "C": "Rohirrim",
+        "D": "Nazgûl",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "17",
+        "Question": "Who is the god-like character in Tolkien's legendarium?",
+        "A": "Manwë",
+        "B": "Eru Ilúvatar",
+        "C": "Aulë",
+        "D": "Ulmo",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "18",
+        "Question": "Which Valar created the dwarves in Tolkien's legendarium?",
+        "A": "Eru Ilúvatar",
+        "B": "Aulë",
+        "C": "Nienna",
+        "D": "Varda",
+        "Answer": "B"
+    },
+    {
+        "QuestionNum": "19",
+        "Question": "Morgoth was the strongest of the Valar before his downfall into darkness. Who then, after Morgoth, became the strongest of the Valar to be the mouth for Eru Ilúvatar?",
+        "A": "Estë",
+        "B": "Vairë",
+        "C": "Mandos",
+        "D": "Manwë",
+        "Answer": "D"
+    },
+    {
+        "QuestionNum": "20",
+        "Question": "There was a love story that was deeply personal to Tolkien. What two characters are in this story?",
+        "A": "Aragorn & Arwen",
+        "B": "Beren & Lúthien",
+        "C": "Faramir & Éowyn",
+        "D": "Samwise & Rosie",
+        "Answer": "B"
+    }
+]

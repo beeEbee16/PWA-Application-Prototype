@@ -1,0 +1,32 @@
+{
+    "short_name": "QZ",
+    "name": "Quiz Central",
+    "description": "Quiz app to test your knowledge on a variety of amazing worlds.",
+    "icons": [
+        {
+            "src": "products/gameThrones3.jpg",
+            "type": "image/jpg"
+        },
+        {
+            "src": "products/harryPotter1.jpg",
+            "type": "image/jpg"
+        },
+        {
+            "src": "products/lordRings2.jpg",
+            "type": "image/jpg"
+        },
+        {
+            "src": "products/starWars1.jpg",
+            "type": "image/jpg"
+        },
+        {
+            "src": "products/macgyver.jpg",
+            "type": "image/jpg"
+        }
+
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}

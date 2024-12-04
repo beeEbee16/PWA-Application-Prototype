@@ -5,10 +5,12 @@ import {
     collection,
     addDoc,
     getDocs,
+    setDoc,
     deleteDoc,
     updateDoc,
     doc
 } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js";
+import { currUser } from "./auth.js";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -27,16 +29,31 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 
-export const addTaskToFirebase = async (task) => {
+export const addHistToFirebase = async (quizH) => {
+    console.log(quizH);
     try {
-        const docRef = await addDoc(collection(db, "tasks"), task);
-        return { id: docRef,id, ...task };
+        if (!currUser) {
+            throw new Error("User is not authenticated");
+        }
+        const userId = currUser.uid;
+        const userRef = doc(db, "users", userId);
+        await setDoc(
+            userRef,
+            {
+              email: currUser.email,
+              name: currUser.displayName,
+            },
+            { merge: true }
+          );
+        const histRef = collection(userRef, "quizHistory");
+        const docRef = await addDoc(histRef, quizH);
+        return { id: docRef.id, ...quizH };
     } catch (e) {
-        console.error("Error adding task: ", e);
+        console.error("Error adding quiz history: ", e);
     };
 };
 
-export const getTaskFromFirebase = async () => {
+export const getTasksFromFirebase = async () => {
     const tasks = [];
     try {
         const querySnapshot = await getDocs(collection(db, "tasks"));

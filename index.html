@@ -5,16 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"> -->
     <link rel="manifest" href="./manifest.json" />
     <title>Quiz Central</title>
 </head>
 <body>
 
-    <nav>
-        <div class="nav-wrapper black">
-            <a href="#" class="brand-logo center">Quiz Central</a>
-        </div>
-    </nav>
+    <nav id="nav-menu"></nav>
 
     <div class="container">
         <h4 class="center-align">Welcome to Quiz Central</h4>
@@ -30,7 +27,9 @@
             <div class="">
                 <ul class="">
                     <li class="col s4">
-                        <img src="/products/gameThrones3.jpg" alt="Game of Thrones" class="responsive-img fixed-size">
+                        <a href="quizPages/gameThrones.html">
+                            <img src="/products/gameThrones3.jpg" alt="Game of Thrones" class="responsive-img fixed-size">
+                        </a>
                     </li>
                     <li class="col s4">
                         <img src="/products/harryPotter1.jpg" alt="Harry Potter" class="responsive-img fixed-size">
@@ -48,39 +47,9 @@
             </div>
         </div>
     </div>
-
-    <!-- <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-analytics.js";
-        import { getFirestore } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js";
-      
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        const firebaseConfig = {
-          apiKey: "AIzaSyBo6VodSwglHUQyJ-wbj1Kt7QYs8FTfmFI",
-          authDomain: "web-dev-pwa-c2fc3.firebaseapp.com",
-          projectId: "web-dev-pwa-c2fc3",
-          storageBucket: "web-dev-pwa-c2fc3.firebasestorage.app",
-          messagingSenderId: "758195619522",
-          appId: "1:758195619522:web:c88930d9ea5095edbd9d5b",
-          measurementId: "G-YNXJR2MBLM"
-        };
-      
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-        const db = getFirestore(app);
-    </script> -->
-    
-    <!-- <script>
-        if('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js')
-            .then(() => console.log('service worker registered'))
-            .catch(() => console.log('service worker not registered'))
-        }
-    </script> -->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <!-- <script src="/db.js"></script> -->
+    <script type="text/javascript" href="js/materialize.min.js"></script>
+    <script type="module" src="/indexDB.js"></script>
+    <script type="module" src="/auth.js"></script>
+    <script type="module" src="/nav.js"></script>
 </body>
 </html>

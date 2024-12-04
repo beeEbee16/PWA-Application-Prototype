@@ -13,12 +13,6 @@ const assets = [
     'https://fonts.googleapis.com/icon?family=Material+Icons'
 ];
 
-if('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js')
-    .then(() => console.log('service worker registered'))
-    .catch(() => console.log('service worker not registered'))
-}
-
 // install service worker
 self.addEventListener('install', event => {
     event.waitUntil(

@@ -35,8 +35,7 @@ export const addHistToFirebase = async (quizH) => {
         if (!currUser) {
             throw new Error("User is not authenticated");
         }
-        const userId = currUser.uid;
-        const userRef = doc(db, "users", userId);
+        const userRef = doc(db, "users", currUser.uid);
         await setDoc(
             userRef,
             {
@@ -53,16 +52,22 @@ export const addHistToFirebase = async (quizH) => {
     };
 };
 
-export const getTasksFromFirebase = async () => {
-    const tasks = [];
+export const getHistoryFromFirebase = async () => {
+    const history = [];
     try {
-        const querySnapshot = await getDocs(collection(db, "tasks"));
+        if (!currUser) {
+            throw new Error("User is not authenticated");
+        }
+        const querySnapshot = await getDocs(collection(db, "users", currUser.uid, "quizHistory"));
         querySnapshot.forEach((doc) => {
-            tasks.push({ id: doc.id, ...doc.data()});
+            history.push({ id: doc.id, ...doc.data()});
         });
+        console.log(history);
+        
     } catch (e) {
-        console.error("Error retrieving tasks: ", e);     
+        console.error("Error retrieving history: ", e);     
     };
+    return history;
 };
 
 export const deleteTaskFromFirebase = async (id) => {
@@ -73,11 +78,11 @@ export const deleteTaskFromFirebase = async (id) => {
     };
 };
 
-export const updateTaskInFirebase = async (id, updatedData) => {
+/* export const updateTaskInFirebase = async (id, updatedData) => {
     try {
         const taskRef = doc(db, "tasks", id);
         await updateDoc(taskRef, updatedData);
     } catch (e) {
         console.error("Error updating task: ", e);       
     };
-};
+}; */

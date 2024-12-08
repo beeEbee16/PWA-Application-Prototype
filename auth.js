@@ -7,7 +7,9 @@ import {
   signInWithPopup
 } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
 import { loginBtn, logoutBtn } from "./nav.js";
-import { loadHists, syncHist } from "./indexDB.js"
+import { syncHist } from "./indexDB.js"
+import { getHistoryFromFirebase } from "./db.js";
+import { displayHistory } from "./quizHistory.js";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -30,31 +32,31 @@ export let currUser = null;
 console.log("currUser cleared");
 
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {  
   if (loginBtn) {
     loginBtn.addEventListener("click", () => {userSignIn()});
   }
-
+  
   if (logoutBtn) {
     logoutBtn.addEventListener("click", () => {userSignOut()});
   }
   
   // Check if the user is authenticated
-  onAuthStateChanged(auth, (user) => {    
+  onAuthStateChanged(auth, (user) => {        
     if (user) {
       loginBtn.style.display = "none";
       logoutBtn.style.display = "block";
-      //currUserId = user.uid;
       currUser = user;
       console.log("currUser set: " + currUser.displayName);
-      loadHists();
+      //loadHists();
       syncHist();
-      
+      if (window.location.pathname === "/quizHistory.html") {
+        displayHistory();
+      }
     } else {
       loginBtn.style.display = "block";
       logoutBtn.style.display = "none";
       alert("You need to be logged in to play the quizzes.");
-      //window.location.href = "/index.html";
     }
   })
 });

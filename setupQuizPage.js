@@ -2,16 +2,18 @@ import { addHist } from "./indexDB.js";
 import { currUser } from "./auth.js";
 
 // Display quiz questions
-const displayQuestion = () => {  
+const displayQuestion = () => {    
     let questionData = document.getElementById("quiz");
     let output = "";
+    console.log("Displaying Question");
+    
 
     for (let i = 1; i < gameThronesQuizData.length; i++) {
         output += `
             <form action="#">
                 <h5>${gameThronesQuizData[i].QuestionNum}.&nbsp&nbsp${gameThronesQuizData[i].Question}</h5>
                 <ul style="list-style: none"> 
-                    ${gameThronesQuizData[i].Options.map((option, index) => `
+                    ${gameThronesQuizData[i].Options.map((option) => `
                         <li>
                             <label>
                             <input class="with-gap"  name="gameThronesQuizData${i}" type="radio" value="${option}">
@@ -46,10 +48,12 @@ export const checkAnswers = async () => {
 
     // Data to store and sync with indexDB and Firebase
     const quizH = {
-        quizId: 2,
+        quizName: gameThronesQuizData[0].QuizName,
         score: score,
         dateTaken: new Date()
     }
+    console.log(gameThronesQuizData[0].QuizName);
+    
 
     await addHist(quizH);
 
@@ -74,4 +78,4 @@ export const checkAnswers = async () => {
     
 };
 
-  displayQuestion();
+displayQuestion();

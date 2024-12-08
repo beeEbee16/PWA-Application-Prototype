@@ -1,13 +1,11 @@
 import { openDB } from "https://unpkg.com/idb?module";
 import {
     addHistToFirebase,
-    getTasksFromFirebase,
+    getHistoryFromFirebase,
     deleteTaskFromFirebase,
   } from "./db.js";
 
 document.addEventListener("DOMContentLoaded", function () {
-    //loadHists();
-    //syncHist();
     checkStorageUsage();
     //requestPersistentStorage();
 });
@@ -84,7 +82,7 @@ export const syncHist = async () => {
       if (!hist.synced && navigator.onLine) {
         try {
           const histToSync = {
-            quizId: hist.quizId,
+            quizName: hist.quizName,
             score: hist.score,
             dateTaken: hist.dateTaken
           };
@@ -118,7 +116,7 @@ const deleteTask = async (id) => {
     checkStorageUsage();
 }
 
-export const loadHists = async () => {
+/* export const loadHists = async () => {
     const db = await getDB();
 
      // Start transaction
@@ -126,11 +124,11 @@ export const loadHists = async () => {
      const store = tx.objectStore("quizHistory");
 
      // Get all tasks
-     const tasks = await store.getAll();
+     //const tasks = await store.getAll();
 
      // Complete transaction
      await tx.done;
-}
+} */
 
 const checkStorageUsage = async () => {
     if (navigator.storage && navigator.storage.estimate) {

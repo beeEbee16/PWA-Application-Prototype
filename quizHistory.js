@@ -28,7 +28,7 @@ export const displayHistory = async () => {
     } */
 
     if (currUser) {
-        await getHistoryFromFirebase();
+        output = await getHistoryFromFirebase();
     } else {
         console.log("No user data to get");  
     }

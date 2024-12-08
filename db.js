@@ -53,21 +53,44 @@ export const addHistToFirebase = async (quizH) => {
 };
 
 export const getHistoryFromFirebase = async () => {
-    const history = [];
+    let histData = "";
+    let timestamp;
+    let date;
     try {
         if (!currUser) {
             throw new Error("User is not authenticated");
         }
         const querySnapshot = await getDocs(collection(db, "users", currUser.uid, "quizHistory"));
+        histData = `
+            <table>
+                <tr>
+                    <th>Quiz Name</th>
+                    <th>Score</th>
+                    <th>Date Taken</th>
+                </tr>
+        `
         querySnapshot.forEach((doc) => {
-            history.push({ id: doc.id, ...doc.data()});
+            //history.push({ id: doc.id, ...doc.data()});
+            console.log(doc.data().quizName);
+            timestamp = doc.data().dateTaken;
+            date = timestamp.toDate();
+
+            histData += `
+                <tr>
+                    <td>${doc.data().quizName}</td>
+                    <td>${doc.data().score}</td>
+                    <td>${date.toLocaleString()}</td>
+                </tr>
+            `
         });
-        console.log(history);
+        histData += `</table>`
+
+        console.log(histData);
         
     } catch (e) {
         console.error("Error retrieving history: ", e);     
     };
-    return history;
+    return histData;
 };
 
 export const deleteTaskFromFirebase = async (id) => {

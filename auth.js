@@ -29,8 +29,6 @@ const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
 
 export let currUser = null;
-console.log("currUser cleared");
-
 
 document.addEventListener("DOMContentLoaded", () => {  
   if (loginBtn) {
@@ -47,8 +45,6 @@ document.addEventListener("DOMContentLoaded", () => {
       loginBtn.style.display = "none";
       logoutBtn.style.display = "block";
       currUser = user;
-      console.log("currUser set: " + currUser.displayName);
-      //loadHists();
       syncHist();
       if (window.location.pathname === "/quizHistory.html") {
         displayHistory();
@@ -65,7 +61,6 @@ export const userSignIn = async () => {
   signInWithPopup(auth, provider)
   .then((result) => {
       const user = result.user;
-      console.log(user);
   }).catch((e) => {
       console.error(e);
   })

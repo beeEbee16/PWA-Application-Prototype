@@ -2,7 +2,7 @@ import { openDB } from "https://unpkg.com/idb?module";
 import {
     addHistToFirebase,
     getHistoryFromFirebase,
-    deleteTaskFromFirebase,
+    deleteHistoryFromFirebase,
   } from "./db.js";
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -31,8 +31,6 @@ const getDB = async () => {
 }
 
 export const addHist = async (histItem) => {
-   console.log("Adding to firebase");
-
     const db = await getDB();
     let histId;
 
@@ -69,9 +67,7 @@ export const addHist = async (histItem) => {
 }
 
 // Sync indexDB to Firebase
-export const syncHist = async () => {
-  console.log("Syncing host");
-  
+export const syncHist = async () => {  
     const db = await getDB();
     const tx = db.transaction("quizHistory", "readonly");
     const store = tx.objectStore("quizHistory");
@@ -115,20 +111,6 @@ const deleteTask = async (id) => {
     // Update storage usage
     checkStorageUsage();
 }
-
-/* export const loadHists = async () => {
-    const db = await getDB();
-
-     // Start transaction
-     const tx = db.transaction("quizHistory", "readwrite");
-     const store = tx.objectStore("quizHistory");
-
-     // Get all tasks
-     //const tasks = await store.getAll();
-
-     // Complete transaction
-     await tx.done;
-} */
 
 const checkStorageUsage = async () => {
     if (navigator.storage && navigator.storage.estimate) {

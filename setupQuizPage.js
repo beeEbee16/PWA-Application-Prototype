@@ -4,9 +4,7 @@ import { currUser } from "./auth.js";
 // Display quiz questions
 const displayQuestion = () => {    
     let questionData = document.getElementById("quiz");
-    let output = "";
-    console.log("Displaying Question");
-    
+    let output = "";    
 
     for (let i = 1; i < gameThronesQuizData.length; i++) {
         output += `
@@ -52,7 +50,6 @@ export const checkAnswers = async () => {
         score: score,
         dateTaken: new Date()
     }
-    console.log(gameThronesQuizData[0].QuizName);
     
 
     await addHist(quizH);

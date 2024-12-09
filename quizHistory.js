@@ -1,31 +1,11 @@
 import { getHistoryFromFirebase } from "./db.js"
 import { currUser } from "./auth.js";
+import { deleteHistoryFromFirebase } from "./db.js";
 
 // Display quiz history
 export const displayHistory = async () => {  
     let historyData = document.getElementById("history");
     let output = "";
-
-   /*  for (let i = 1; i < gameThronesQuizData.length; i++) {
-        output += `
-            <form action="#">
-                <h5>${gameThronesQuizData[i].QuestionNum}.&nbsp&nbsp${gameThronesQuizData[i].Question}</h5>
-                <ul style="list-style: none"> 
-                    ${gameThronesQuizData[i].Options.map((option) => `
-                        <li>
-                            <label>
-                            <input class="with-gap"  name="gameThronesQuizData${i}" type="radio" value="${option}">
-                            <span class="black-text">${option}</span>
-                            </label>
-                        </li>
-                    `).join("")}
-                </ul>
-                ${i < gameThronesQuizData.length ? `
-                    <br>
-                ` : `null`}
-            </form>
-        `;
-    } */
 
     if (currUser) {
         output = await getHistoryFromFirebase();
@@ -35,10 +15,13 @@ export const displayHistory = async () => {
     
     historyData.innerHTML = output;
 
+    document.querySelectorAll('.delete-btn').forEach(button => {
+        button.addEventListener('click', async (event) => {
+            const id = event.target.getAttribute('data-id'); // Get the doc id from data-id attribute
+            await deleteHistoryFromFirebase(id); // Call the function to delete the record
+            // Remove the corresponding row from the table after deletion
+            event.target.closest('tr').remove();
+        });
+    });
+
   };
-
-/* document.addEventListener("DOMContentLoaded", () => {
-    displayHistory();
-}); */
-
-//displayHistory();

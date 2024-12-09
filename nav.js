@@ -1,12 +1,3 @@
-/* window.onload = function () {
-    fetch("../nav.html")
-      .then(response => response.text())
-      .then(html => {
-        document.getElementById('nav-container').innerHTML = html;
-      })
-      .catch(err => console.log('Error loading navbar:', err));
-  }; */
-
 export const nav = document.getElementById("nav-menu").innerHTML = 
 '<div class="nav-wrapper black">' +
 '<a href="/" class="brand-logo center">Quiz Central</a>' +

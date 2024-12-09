@@ -30,7 +30,6 @@ const db = getFirestore(app);
 
 
 export const addHistToFirebase = async (quizH) => {
-    console.log(quizH);
     try {
         if (!currUser) {
             throw new Error("User is not authenticated");
@@ -67,11 +66,10 @@ export const getHistoryFromFirebase = async () => {
                     <th>Quiz Name</th>
                     <th>Score</th>
                     <th>Date Taken</th>
+                    <th>Delete</th>
                 </tr>
         `
         querySnapshot.forEach((doc) => {
-            //history.push({ id: doc.id, ...doc.data()});
-            console.log(doc.data().quizName);
             timestamp = doc.data().dateTaken;
             date = timestamp.toDate();
 
@@ -80,12 +78,11 @@ export const getHistoryFromFirebase = async () => {
                     <td>${doc.data().quizName}</td>
                     <td>${doc.data().score}</td>
                     <td>${date.toLocaleString()}</td>
+                    <td><button class="delete-btn" data-id="${doc.id}">Delete</button></td>
                 </tr>
             `
         });
         histData += `</table>`
-
-        console.log(histData);
         
     } catch (e) {
         console.error("Error retrieving history: ", e);     
@@ -93,19 +90,13 @@ export const getHistoryFromFirebase = async () => {
     return histData;
 };
 
-export const deleteTaskFromFirebase = async (id) => {
+export const deleteHistoryFromFirebase = async (id) => {
+    if (!currUser) {
+        throw new Error("User is not authenticated");
+    }
     try {
-        await deleteDoc(doc(db, "tasks", id));
+        await deleteDoc(doc(db, "users", currUser.uid, "quizHistory", id));
     } catch (e) {
-        console.error("Error deleting task: ", e);
+        console.error("Error deleting history: ", e);
     };
 };
-
-/* export const updateTaskInFirebase = async (id, updatedData) => {
-    try {
-        const taskRef = doc(db, "tasks", id);
-        await updateDoc(taskRef, updatedData);
-    } catch (e) {
-        console.error("Error updating task: ", e);       
-    };
-}; */

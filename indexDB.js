@@ -95,23 +95,6 @@ export const syncHist = async () => {
     }
   }
 
-const deleteTask = async (id) => {
-    const db = await getDB();
-    
-    // Start transaction
-    const tx = db.transaction("quizHistory", "readwrite");
-    const store = tx.objectStore("quizHistory");
-
-    // Delete task by id
-    await store.delete(id);
-
-    // Complete transaction
-    await tx.done;
-
-    // Update storage usage
-    checkStorageUsage();
-}
-
 const checkStorageUsage = async () => {
     if (navigator.storage && navigator.storage.estimate) {
         const { usage, quota } = await navigator.storage.estimate();

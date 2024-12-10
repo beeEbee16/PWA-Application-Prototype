@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Game of Thrones Quiz</title>
+  <title>Lord of the Rings Quiz</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 <body>
   <nav id="nav-menu"></nav>
   <div class="container">
-    <h1>Game of Thrones Quiz</h1>
+    <h1>Lord of the Rings Quiz</h1>
     <div id="quiz"></div>
     <div id="result"></div>
     <button id="submit">Submit</button>
     <button id="retry">Retry</button>
   </div>
   <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script src="../quizzes/gameThronesQuestionAnswer.js"></script>
-  <script type="module" src="../gameThronesSetupQuizPage.js"></script>
+  <script src="../quizzes/lordRingsQuestionAnswer.js"></script>
+  <script type="module" src="../lordRingsSetupQuizPage.js"></script>
   <script type="module" src="../indexDB.js"></script>
   <script type="module" src="../nav.js"></script>
   <script type="module" src="../auth.js"></script>
   <script type="module">
-    import { checkAnswers } from "../gameThronesSetupQuizPage.js";
+    import { checkAnswers } from "../lordRingsSetupQuizPage.js";
     const submit = document.getElementById("submit");
     submit.addEventListener("click", () => {checkAnswers()});
   </script>

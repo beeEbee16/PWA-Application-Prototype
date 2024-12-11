@@ -69,6 +69,7 @@ export const userSignIn = async () => {
 export const userSignOut = async () => {
   signOut(auth).then(() => {
       alert("You have signed out successfully!");
+      window.location.href="../index.html";
   }).catch((e) => {
       console.error(e);
   })
